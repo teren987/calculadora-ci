@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cl.evaluacion.calculadora.CalculadoraTest" time="0.045" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/francisco/calculadora-ci/target/test-classes:/home/francisco/calculadora-ci/target/classes:/home/francisco/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/home/francisco/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/francisco/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/home/francisco/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/francisco/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/francisco/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/home/francisco/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar:/home/francisco/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/home/francisco/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/francisco/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/francisco/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/francisco/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:"/>
+    <property name="java.vm.vendor" value="Debian"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-21"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CL"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/francisco/calculadora-ci/target/surefire/surefirebooter-20260918120153313_3.jar /home/francisco/calculadora-ci/target/surefire 2026-09-18T12-01-52_959-jvmRun1 surefire-20260918120153313_1tmp surefire_0-20260918120153313_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/francisco/calculadora-ci/target/test-classes:/home/francisco/calculadora-ci/target/classes:/home/francisco/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/home/francisco/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/home/francisco/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/home/francisco/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/home/francisco/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/home/francisco/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/home/francisco/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/home/francisco/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/francisco/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar:/home/francisco/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/home/francisco/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/francisco/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/francisco/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/francisco/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/francisco"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="/usr/lib/jvm/java-21-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/francisco/calculadora-ci"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/francisco/calculadora-ci/target/surefire/surefirebooter-20260918120153313_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.12.1+1-1-deb13u1-Debian"/>
+    <property name="user.name" value="francisco"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.12.107+deb13-amd64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/francisco/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-21"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.12.1"/>
+    <property name="user.dir" value="/home/francisco/calculadora-ci"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Debian"/>
+    <property name="java.vm.version" value="21.0.12.1+1-1-deb13u1-Debian"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Producto con stock disponible en bodega" classname="Consulta de disponibilidad de stock" time="0.085">
+    <system-err><![CDATA[sept 18, 2026 12:01:53 P. M. io.cucumber.junit.platform.engine.DiscoverySelectorResolver warnWhenCucumberFeaturesPropertyIsUsed
+ADVERTENCIA: Discovering tests using the cucumber.features property. Other discovery selectors are ignored!
+Please request/upvote/sponsor/ect better support for JUnit 5 discovery selectors.
+See: https://github.com/cucumber/cucumber-jvm/pull/2498
+]]></system-err>
+  </testcase>
+  <testcase name="Example #1.1" classname="Examples" time="0.009"/>
+  <testcase name="Example #1.2" classname="Examples" time="0.008"/>
+  <testcase name="deberiaSumarDosNumerosCorrectamente" classname="cl.evaluacion.calculadora.CalculadoraTest" time="0.027"/>
+  <testcase name="deberiaRestarDosNumerosCorrectamente" classname="cl.evaluacion.calculadora.CalculadoraTest" time="0.001"/>
+</testsuite>
