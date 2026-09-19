@@ -44,12 +44,12 @@ Se implementó un **rollback simple** sobre contenedores Docker:
 
 ## Evidencias
 - Captura 1: Pipeline de CI en GitHub Actions (build + test en verde).
-![GitHub Actions](imagenes/github_actions.png)
+![GitHub Actions](images/github_actions.png)
 - Captura 2: Despliegue v1 exitoso, Acceptance Gate PASADO.
-![Accept Gate V1](imagenes/acceptace_gate.png)
+![Accept Gate V1](images/acceptace_gate.png)
 - Captura 3: Despliegue v2 fallido, Acceptance Gate FALLIDO.
-![Accept Gate V2](imagenes/acceptace_gateV2.png)
+![Accept Gate V2](images/acceptace_gateV2.png)
 - Captura 4: Ejecución de rollback.sh, retorno a v1, Acceptance Gate PASADO.
-![Accept Gate V2](imagenes/ejeccion_rollback.png)
+![Accept Gate V2](images/ejeccion_rollback.png)
 ## Autor
 Francisco Garrido
